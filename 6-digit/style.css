@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    border: 2px solid #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.container .content{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.content .captcha {
+    padding: 0;
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.content #captcha-show{
+    border: 2px solid #000;
+}
+.captcha input{
+    text-align: center;
+    width: 98%;
+    height: 89%;
+    font-size: 30px;
+}
+.captcha .gen-cap{
+    margin: 0;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 30px; /* Start with your preferred size */
+    transform: scaleX(1.5); /* Adjust to stretch the text */
+    transform-origin: center;
+}
+.result {
+    font-size: 5rem;
+}
+.result .remark-correct{
+    color: green;
+}
+.result .remark-wrong{
+    color: red;
+}
+.btn{
+    background-color: green;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.btn:hover{
+    background-color: rgba(0, 128, 0, 0.73);
+}
