@@ -14,11 +14,6 @@ A simple web-based CAPTCHA system using HTML, CSS, and JavaScript that generates
 
 ---
 
-## 📸 Demo
-
-![Captcha Demo](demo-screenshot.png) <!-- Optional: Add a screenshot if you have -->
-
----
 
 ## 🛠️ Tech Stack
 
@@ -39,5 +34,4 @@ A simple web-based CAPTCHA system using HTML, CSS, and JavaScript that generates
 
 ---
 
-## 📁 Project Structure
 
